@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <script type="module" src="./module/index.js"></script> -->
+    <title>Awesome Books</title>
+</head>
+<body>
+    <header class="menu">
+        <section class="topNav">
+            <div class="logo">
+
+                <p class="logoname">Books list</p>
+            </div>
+        
+        <div class="downNav">
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item" id="books">Books</li>
+                    <hr class="nav-line">
+                    <li class="nav-item" id="add-book">Add Book</li>
+                    <hr class="nav-line">
+                    <li class="nav-item" id="contact">Contact</li>
+
+                </ul>
+            </nav>
+        </div>
+        </section>
+        <div class="date">Date</div>
+        <div class="books">
+            <div class="books-container">
+                <h1 class="title">Awesome Books</h1>
+                <div class="book-list"></div>
+                </div>
+            </div>
+        </section>
+    </header>
+        <main>
+        <section class="book-create">
+
+            <div class="book-create-container">
+                <div class="add-book">
+                    <form class="form">
+                        <h1 class="header">Add a new book</h1>
+                        <input class="input" type="text" name="title" id="title" placeholder="book title">
+                        <input class="input" type="text" name="author"  id="author" placeholder="author">
+                        <button type="submit" name="submit" class="btn-add">Add</button>
+                    </form>
+                </div>
+            </div>    
+
+        </section>
+        <section class="contact">
+            <div class="contact-container">
+                <div class="info">
+                    <h2>Follow me</h2>
+                    <ul class="links">
+                        <li class="link-item">Source Code: <a href="#">Github</a></li>
+                    </ul>
+                    <div class="date"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>All rights reserve to <a href="#">Roland Ntwali</a></p>
+        </div>
+    </footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
