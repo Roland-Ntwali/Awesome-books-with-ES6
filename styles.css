@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.topNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px;
+  border: 5px solid;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 27px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-item:hover {
+  color: rgb(140, 0, 255);
+  cursor: pointer;
+}
+
+.nav-line {
+  width: 2px;
+  height: 23px;
+}
+
+.date {
+  display: flex;
+  float: right;
+  font-size: small;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.books-container {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 3px solid;
+  border-radius: 6px;
+}
+
+.book {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8.5rem;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.book:nth-child(even) {
+  background-color: #fff;
+}
+
+.book:nth-child(odd) {
+  background-color: #eee;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 25px;
+  width: 240px;
+}
+
+.input {
+  width: 240px;
+  height: 32px;
+}
+
+.btn-add {
+  display: flex;
+  align-self: end;
+  box-shadow: 2px 2px black;
+  width: 55px;
+  justify-content: center;
+}
+
+.btn-add:hover {
+  color: rgb(140, 0, 255);
+  cursor: pointer;
+}
+
+.links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.remove-btn {
+  box-shadow: 2px 2px black;
+}
+
+.remove-btn:hover {
+  color: rgb(140, 0, 255);
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+footer {
+  border: 2px solid;
+  background-color: #000;
+  color: #eaecee;
+  text-align: center;
+  margin-bottom: 3px;
+  position: fixed;
+  bottom: 5px;
+  width: 99%;
+}
