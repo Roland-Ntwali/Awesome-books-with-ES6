@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { DateTime, Duration, FixedOffsetZone, IANAZone, Info, Interval, InvalidZone, Settings, SystemZone, VERSION, Zone } from "./module/luxon.js";
+import { DateTime } from "./module/luxon.js";
+
 let bookArr = JSON.parse(localStorage.getItem('book')) || [];
 class Book {
   constructor(title, author) {
